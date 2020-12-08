@@ -1,5 +1,5 @@
 {
-"SolarSystem":{
+  "SolarSystem":{
   "name": "Solar System",
   "star": {
     "name": "Sol",
@@ -26,7 +26,6 @@
   ]
 },
   "_meta": {
-    "planetCount": 2,
-    "moonsCount": 1
+    "planetCount": 2
   }
 }

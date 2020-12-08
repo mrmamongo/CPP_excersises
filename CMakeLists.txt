@@ -31,7 +31,7 @@ find_package(nlohmann_json CONFIG REQUIRED)
 
 add_library(parser STATIC
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
-)
+        sources/student.cpp)
 add_executable(tests
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
 )

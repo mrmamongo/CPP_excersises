@@ -1,6 +1,8 @@
 //
 // Created by lamp on 07.12.2020.
 //
+// Copyright 2020 lamp
+
 #include <string>
 #include <nlohmann/json.hpp>
 #include <any>

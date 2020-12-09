@@ -54,6 +54,7 @@ class Planet {
 };
 
 class Star {
+  
  protected:
   int light;
   string name;

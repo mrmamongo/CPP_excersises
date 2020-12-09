@@ -1,5 +1,9 @@
 # Лабораторная работа № 1
 
+| branch | status |
+|--------|--------|
+|  dev   | [![CI](https://github.com/mrmamongo/lab01-example/workflows/CI/badge.svg?branch=ready)](https://github.com/mrmamongo/lab01-example/actions/runs/409995602) |
+
 ## Задание
 
 Реализовать утилиту табличного вывода массива данных, хранящихся в файле формата **JSON**.<br />

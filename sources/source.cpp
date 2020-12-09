@@ -51,7 +51,7 @@ SolSystem SolSystem::Parse(const json& data) {
   string name = data.at("SolarSystem").at("name");
 
   std::vector<Planet> planets;
-  for(const auto& planet : data["SolarSystem"]["planets"]) {
+  for (const auto& planet : data["SolarSystem"]["planets"]) {
     auto pName = planet["name"].get<string>();
     int volume = planet["volume"].get<int>();
     any yebok = get_yebok(planet["yebok"]);

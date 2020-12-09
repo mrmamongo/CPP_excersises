@@ -20,8 +20,8 @@ using json = nlohmann::json;
 using std::vector;
 
 class SolSystem {
-explicit struct Moon {
-  Moon(int volume_ = 100, string name_ = "Moon")
+struct Moon {
+ explicit Moon(int volume_ = 100, string name_ = "Moon")
       : volume(volume_), name(name_){}
  protected:
   int volume;

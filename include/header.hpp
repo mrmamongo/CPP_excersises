@@ -23,6 +23,7 @@ class SolSystem {
 struct Moon {
  explicit Moon(int volume_ = 100, string name_ = "Moon")
       : volume(volume_), name(name_){}
+ 
  protected:
   int volume;
   string name;
@@ -52,9 +53,8 @@ class Planet {
   friend std::ostream& operator<<(std::ostream& os, const SolSystem& system);
   //void Print();
 };
-
+ 
 class Star {
-  
  protected:
   int light;
   string name;
@@ -71,7 +71,7 @@ class Star {
   Star star;
 
   string name;
-  
+
  public:
   explicit SolSystem(string name_ = "Solar_System")
       : name(std::move(name_)){}

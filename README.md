@@ -2,7 +2,7 @@
 
 | branch | status |
 |--------|--------|
-|  dev   | [![CI](https://github.com/mrmamongo/lab01-example/workflows/CI/badge.svg?branch=ready)](https://github.com/mrmamongo/lab01-example/actions/runs/409995602) |
+|  ready | [![CI](https://github.com/mrmamongo/lab01-example/workflows/CI/badge.svg?branch=ready)](https://github.com/mrmamongo/lab01-example/actions/runs/409995602) |
 
 ## Задание
 

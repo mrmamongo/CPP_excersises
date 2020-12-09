@@ -47,5 +47,4 @@ int main(){
   for (const auto& item : data["items"]){
     students.push_back(Student::from_json(item));
   }
-
 }

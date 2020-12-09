@@ -9,6 +9,7 @@
 #include <nlohmann/json.hpp>
 #include <fstream>
 #include <map>
+#include <utility>
 
 using string = std::string;
 using std::cout;
@@ -19,7 +20,7 @@ using json = nlohmann::json;
 using std::vector;
 
 class SolSystem {
-struct Moon {
+explicit struct Moon {
   Moon(int volume_ = 100, string name_ = "Moon")
       : volume(volume_), name(name_){}
  protected:
@@ -69,8 +70,8 @@ class Star {
   Star star;
 
   string name;
+  
  public:
-
   explicit SolSystem(string name_ = "Solar_System")
       : name(std::move(name_)){}
   SolSystem(

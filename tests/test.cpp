@@ -1,8 +1,7 @@
 // Copyright 2020 Your Name <your_email>
 
 #include <gtest/gtest.h>
-#include "../sources/main.cpp"
+#include "Moon.hpp"
 
 TEST(Example, EmptyTest) {
-  Program();
 }

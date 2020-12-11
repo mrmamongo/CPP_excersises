@@ -1,42 +1,42 @@
 {
   "Moons": [
-    {
-      "name": "Moon",
-      "parentPlanet": "Earth",
-      "square": 38000000,
-      "openingYear":0
-    },
-    {
-      "name": "Phobos",
-      "parentPlanet": "Mars",
-      "square": 1600,
-      "openingYear": 1877
-    },
-    {
-      "name": "Ganimed",
-      "parentPlanet": "Jupiter",
-      "square": 5262,
-      "openingYear": 1610
-    },
-    {
-      "name": "Kallisto",
-      "parentPlanet": "Jupiter",
-      "square": 4821,
-      "openingYear": 1610
-    },
-    {
-      "name": "IO",
-      "parentPlanet": "Jupiter",
-      "square": 41910000,
-      "openingYear": 1619
-    },
-    {
-      "name": "Miranda",
-      "parentPlanet": "Uranus",
-      "square": 698710,
-      "openingYear": 1948
-    }
-  ],
+{
+  "name": "Moon",
+  "parentPlanet": "Earth",
+  "square": 38000000,
+  "openingYear": 0
+},
+{
+"name": "Phobos",
+"parentPlanet": "Mars",
+"square": 1600,
+"openingYear": 1877
+},
+{
+"name": "Ganimed",
+"parentPlanet": "Jupiter",
+"square": 5262,
+"openingYear": 1610
+},
+{
+"name": "Kallisto",
+"parentPlanet": "Jupiter",
+"square": 4821,
+"openingYear": 1610
+},
+{
+"name": "IO",
+"parentPlanet": "Jupiter",
+"square": 41910000,
+"openingYear": 1619
+},
+{
+"name": "Miranda",
+"parentPlanet": "Uranus",
+"square": 698710,
+"openingYear": 1948
+}
+],
   "_meta": {
     "count": 6
   }

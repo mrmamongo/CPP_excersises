@@ -9,6 +9,7 @@
 #include <string>
 #include <iostream>
 #include <nlohmann/json.hpp>
+#include <fstream>
 using std::cout;
 using std::cin;
 using std::endl;
@@ -18,9 +19,13 @@ using json = nlohmann::json;
 
 struct Moon {
     string name;
-    int yearOfTheOpening;
-    double volume;
-    bool hasWater;
+    string parentPlanet;
+    long square;
+    int openingYear;
+
+    int nameWidth;
+
+    static std::vector<Moon> Parse();
 };
 
 

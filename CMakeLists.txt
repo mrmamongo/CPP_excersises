@@ -23,7 +23,8 @@ hunter_add_package(nlohmann_json)
 find_package(nlohmann_json CONFIG REQUIRED)
 
 add_library( Ex1
-        ${CMAKE_CURRENT_SOURCE_DIR}/sources/Moon.cpp)
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/Moon.cpp
+        )
 
 add_executable( tests
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
@@ -36,8 +37,9 @@ target_include_directories( Ex1 PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_link_libraries(tests GTest::gtest_main Ex1)
 target_link_libraries(Ex1 nlohmann_json::nlohmann_json)
+target_link_libraries(tests GTest::gtest_main Ex1)
+
 enable_testing()
 add_test(
         NAME unit_test
